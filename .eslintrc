@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint", // https://github.com/babel/babel-eslint
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+
+    "plugin:vue/base",
+    "plugin:vue/essential",
+    "plugin:vue/strongly-recommended",
+    "plugin:vue/recommended"
+  ],
+  "plugins": [ "vue" ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {}
+}
