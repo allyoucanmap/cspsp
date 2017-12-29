@@ -1,19 +1,21 @@
 # C~~ #
-** c splash splash - map style editor **
+**c splash splash - map style editor**
 
 Developed to study CSS/SLD languages and create a render environment client side for map styles using sld body and canvas 2D
 
-** install modules **
+**install**
+
+`git clone --recursive https://github.com/allyoucanmap/cspsp.git`
 
 `npm install`
 
-** development **
+**development**
 
 `npm start`
 
 url -> **http://localhost:3000/**
 
-** build **
+**build**
 
 `npm run compile`
 
